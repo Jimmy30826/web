@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="korailyeokmyeongpan.css">
+    <title>코레일 역명판 만들기</title>
+</head>
+<body>
+    <img src="#yeokmyeongpan" alt="역명판(이었던 것)">
+    <div id="yeokmyeongpan">
+        <div class="thisStation">
+            <div id="ThisStationKrContainer">
+                <div id="thisStationNum">
+                    <p id="stationum">201</p>
+                </div>
+                <div id="thisStationKr">
+                    시청
+                </div>
+            </div>
+            <div>
+                <div id="thisStationEn">
+                    City Hall
+                </div>
+                <div id="thisStationHn">
+                    市廳
+                </div>
+            </div>
+        </div>
+        <div class="prevStation">
+            <div>
+                <div id="prevStationNum">
+                    <p id="prevstationum">201</p>
+                </div>
+                <div id="prevStationKr">
+                    시청
+                </div>
+            </div>
+            <div>
+                <div id="prevStationEn">
+                    Busan Int'l Finance CenterㆍBusan Bank
+                </div>
+                <div id="prevStationHn">
+                    釜山國際金融中心ㆍ釜山銀行
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="input">
+        <input type="text" placeholder="이번 역 이름(한국어)" name="thisStationKrInput" onkeyup="getThisStationKrInput()" id="thisStationKrInput">
+    </div>
+</body>
+<script>
+    function getThisStationKrInput() {
+        const this_station_kr_input = document.getElementById('thisStationKrInput').value;
+        document.getElementById('thisStationKr').innerText = this_station_kr_input;
+        }
+</script>
+</html>

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'SeoulNamsan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+.bg {
+    width: 640px;
+    height: 360px;
+    background: linear-gradient(to bottom,#255593, #000000);
+    font-family: 'SeoulNamsan';
+}
+.image{
+    width: 136.25px;
+    height: 37px;
+}
+.bound{
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    top: 15px;
+}
+.boundfor{
+    font-size: 40px;
+}
+.time{
+    font-size: 35px;
+    position: relative;
+    top: -10px;
+}
+.stopinfo{
+    color: lightgray;
+    font-size: 55px;
+}
+.stop{
+    color: yellow;
+}
+.exitinfo{
+    color: lightgray;
+    font-size: 55px;
+}
+.exit{
+    color: aqua;
+}
+.line{
+    position: relative;
+    top: -341px;
+    left: 480px;
+}
+.startline{
+    width: 25px;
+    height: 28px;
+    background: linear-gradient(to bottom,#ffffff00, #996CAC);
+}
+.middleline{
+    width: 25px;
+    height: 266px;
+    background-color: #996CAC;
+    padding: 1px;
+}
+.endline{
+    width: 25px;
+    height: 28px;
+    background: linear-gradient(to top,#ffffff00, #996CAC);
+}
+.st{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -7px;
+    left: 1px;
+}
+.s1{
+    font-family: 'SeoulNamsan';
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: -272px;
+    left: 30px;
+    width: 100px;
+}
+.s2{
+    font-family: 'SeoulNamsan';
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: -229px;
+    left: 30px;
+    width: 100px;
+}
+.s3{
+    font-family: 'SeoulNamsan';
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: -182px;
+    left: 30px;
+    width: 100px;
+}
+.s4{
+    font-family: 'SeoulNamsan';
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: -142px;
+    left: 30px;
+    width: 100px;
+}
+.arrow{
+    color: white;
+    position: relative;
+    top: -110px;
+    left: 4px;
+}

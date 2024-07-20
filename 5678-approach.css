@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'SeoulNamsan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.bg{
+    font-family: SeoulNamsan;
+    background: linear-gradient(to bottom, #255593, #000000);
+    width: 640px;
+    height: 360px;
+}
+.image{
+    width: 136.25px;
+    height: 37px;
+}
+.time{
+    font-size: 30px;
+    color: white;
+}
+.StationKr{
+    color: yellow;
+    font-size: 60px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+.nomtext{
+    color: lightgray;
+    font-size: 50px;
+    position: relative;
+    left: 90px;
+    top: -40px;
+    line-height: 90px;
+}
+.timetext{
+    color: lightblue;
+    font-size: 50px;
+}
+.move{
+    transform: translateX(140px);
+}
+.stick{
+    background-color: #996CAC;
+    width: 640px;
+    height: 20px;
+    position: absolute;
+    top: 306px;
+}
+.cirbg{
+    font-size: 50px;
+    position: absolute;
+    top: 292px;
+    left: 578px;
+    color: #02f2fa;
+}
+.cir{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 302px;
+}
+.arr{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 240px;
+    left: 570px;
+    font-family: Arial;
+}
+.st{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 337px;
+}
+.train1{
+    width: 79.2px;
+    height: 47.1px;
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    animation-name: appraoch;
+    animation-duration: 57s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+}
+@keyframes appraoch {
+    0% {left: 400px;}
+
+    100% {left: 565px;}
+}
+.movetime{
+    transform: translate(330px, -110px);
+}
+.showAni{
+    position: absolute;
+    top: 380px;
+}
+.station2{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 298px;
+    top: 172px;
+}
+.changecolor{
+    color: yellow;
+}
+.move1{
+    transform: translateX(-40px);
+}
+.demove{
+    transform: translateX(0px);
+}

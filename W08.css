@@ -1,0 +1,74 @@
+.div1{background-color: red; width: 50px; height: 50px;}
+.div2{background-color: blue; width: 50px; height: 50px;}
+.div3{background-color: violet; width: 50px; height: 50px;}
+.div4{background-color: pink; width: 50px; height: 50px;}
+.div5{background-color: yellow; width: 50px; height: 50px;}
+.div6{background-color: green; width: 50px; height: 50px;}
+.div7{background-color: gold; width: 50px; height: 50px;}
+
+.section1{
+    display: flex;
+}
+.section2{
+    display: center;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+}
+.section4{
+    display: flex;
+    justify-content: space-around;
+}
+.section5{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.section6{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+.section7{
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.div-1{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.div-2{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.div-3{
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navBar{
+    background-color: greenyellow;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    height: 50px;
+    text-decoration: none;
+}

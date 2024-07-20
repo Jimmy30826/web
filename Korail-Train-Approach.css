@@ -1,0 +1,82 @@
+ * {
+    box-sizing: border-box;
+}
+.teul{
+    padding: 10px;
+    background-color: gray;
+    width: 603px
+}
+.background{
+    width: 563px;
+    height: 200px;
+    background-color: black;
+    font-family: 'DungGeunMo';
+    margin: 10px;
+}
+.timetext{
+    color: orange;
+    font-size: 10px;
+}
+.time{
+    color: orange;
+    font-size: 15px;
+}
+.Title{
+    color: green;
+    font-size: 20px;
+}
+.lines{
+    color: green;
+    font-size: 15px;
+}
+.boundfor{
+    color: green;
+    font-size: 15px;
+}
+.traininfo{
+    color: green;
+    font-size: 15px;
+}
+.trainnumber{
+    color: green;
+    font-size: 15px;
+}
+.departingtime{
+    color: green;
+    font-size: 15px;
+}
+.platform{
+    color: green;
+    font-size: 15px;
+}
+.boardinfo{
+    color: green;
+    font-size: 15px;
+}
+.late{
+    color: green;
+    font-size: 15px
+}
+.via{
+    color: green;
+    font-size: 15px;
+}
+.bound{
+    color: white;
+    width: 100px;
+}
+.trainG{
+    font-size: 20px;
+    color: orange;
+}
+.board{
+    font-size: 15px;
+    color: red;
+}
+.viA{
+    color:red
+}
+.traing{
+    font-size: 20px;
+    color:green;
+}

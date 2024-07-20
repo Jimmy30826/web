@@ -1,0 +1,61 @@
+ * {
+    font-family: korail;
+    box-sizing: border-box;
+    text-align: center;
+}
+input{
+    width: 300px;
+    font-size: 30px;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    font-size: 20px;
+}
+.td-1{
+    text-align: right;
+}
+.td-2{
+    width: 200px;
+    padding-left: 20px;
+}
+.btn{
+    width: 50%;
+}
+.t1{
+    background: #0054A6;
+}
+.t2{
+    background: #999999;
+}
+.naver{
+    background: #1ec800;
+}
+.kakao{
+    background: #fee500;
+}
+.google{
+    background: white;
+}
+.apple{
+    color: white;
+    background: #000;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    line-height: 0;
+}
+.t3{
+    text-align: center;
+    background: orange;
+}
+.checkbox01{
+    text-indent: 0;
+}
+.button02{
+    background: #00000000;
+    border: none;
+}

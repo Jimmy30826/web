@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="5678-approach.css">
+    <link rel="icon" href="01f573bec494e578986af849551c4b5f.ico/favicon.ico">
+    <title>Approach</title>
+</head>
+<body>
+    <div class="bg">
+        <img class="image" src="//i.namu.wiki/i/FhL41BQuyAzvPHBUlwtUROPxhx9UCfaJpIxp92sly3gZls8k6PoIKnsIFBDxuYFKyiTX3XV4XmnFA-3YUH82trTn9gU2A2dQ0KC9XR0_8FNyx9Z28ag8VyRRhzrPWaFbtyadcZH90NrNR-H8oxmePA.svg" data-filesize="23347" data-src="//i.namu.wiki/i/FhL41BQuyAzvPHBUlwtUROPxhx9UCfaJpIxp92sly3gZls8k6PoIKnsIFBDxuYFKyiTX3XV4XmnFA-3YUH82trTn9gU2A2dQ0KC9XR0_8FNyx9Z28ag8VyRRhzrPWaFbtyadcZH90NrNR-H8oxmePA.svg" alt="파일:서울특별시도시철도공사 브랜드 로고.svg">
+        <span class="time">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:01
+        </span>
+        <div class="maintext">
+            <div class="StationKr" id="station">
+                <b>방화</b>
+            </div>
+            <div class="nomtext" id="nomtext">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행 열차가<br>전 역을 출발하였습니다.
+            </div>
+            <div class="timetext" id="timetext">
+                <b>&nbsp;&nbsp;&nbsp;</b>
+            </div>
+        </div>
+        <div class="arr">
+            ➜
+        </div>
+        <img src="trainline5-removebg-preview.png" alt="line5 train" class="train1">
+            <div class="stick">
+            &nbsp;
+        </div>
+        <div class="cirbg">
+            ●
+        </div>
+        <div class="cir">
+            &nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●
+        </div>
+        <div class=st>
+            &nbsp;영등포시장&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;영등포구청&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;양평&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;오목교
+        </div>
+        <button class="showAni" onclick="reload()">
+            애니메이션 다시보기
+        </button>
+        <div class="station2" id="station2">
+            &nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+    <script>
+        function move() {
+            document.querySelector(".StationKr").classList.add("go")
+            document.querySelector(".nomtext").classList.add("go")
+        }
+        function changetexttotime() {
+            document.querySelector(".timetext").innerText='16:01'; 
+        }
+        function reload() {
+            location.reload();
+        }
+        setTimeout(function() {
+            document.getElementById("timetext").innerHTML='<b>16:01</b>';
+            document.getElementById("nomtext").innerHTML='이번열차&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행<br>&nbsp;&nbsp;&nbsp;지금시각';
+            document.querySelector(".StationKr").classList.add("move");
+            document.getElementById("station").innerHTML='<b>방&nbsp;&nbsp;&nbsp;화</b>';
+            document.querySelector(".timetext").classList.add("movetime");
+        }, 9500);
+        setTimeout(function() {
+            document.getElementById("timetext").innerHTML='&nbsp;&nbsp;&nbsp;';
+            document.getElementById("nomtext").innerHTML='이번열차&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행<br>다음열차&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행';
+            document.getElementById("station").innerHTML='<b>방&nbsp;&nbsp;&nbsp;화';
+            document.getElementById("station2").innerHTML='<b>방&nbsp;&nbsp;&nbsp;화';
+        }, 19000);
+        setTimeout(function() {
+            document.getElementById("station2").innerHTML='&nbsp;&nbsp;&nbsp;'
+            document.getElementById("timetext").innerHTML='<b>16:01</b>';
+            document.getElementById("nomtext").innerHTML='이번열차&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행<br>&nbsp;&nbsp;&nbsp;지금시각';
+            document.querySelector(".StationKr").classList.add("move");
+            document.getElementById("station").innerHTML='<b>방&nbsp;&nbsp;&nbsp;화</b>';
+            document.querySelector(".timetext").classList.add("movetime");
+        }, 23500);
+        setTimeout(function() {
+            document.getElementById("timetext").innerHTML='&nbsp;&nbsp;&nbsp;';
+            document.getElementById("nomtext").innerHTML='이번열차&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행<br>다음열차&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행';
+            document.getElementById("station").innerHTML='<b>방&nbsp;&nbsp;&nbsp;화';
+            document.getElementById("station2").innerHTML='<b>방&nbsp;&nbsp;&nbsp;화';
+        }, 33000);
+        setTimeout(function() {
+            document.getElementById("station").classList.add("demove");
+            document.getElementById("nomtext").innerHTML='&nbsp;지금&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행 열차가<br>&nbsp;&nbsp;&nbsp;들어오고 있습니다.';
+            document.getElementById("station2").innerHTML='&nbsp;&nbsp;&nbsp;';
+            document.getElementById("station").innerHTML='<b>&nbsp;&nbsp;&nbsp;방화</b>';
+        },41000);
+        setTimeout(function() {
+                document.getElementById("nomtext").innerHTML='이번열차&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;행<br>The train for';
+                document.getElementById("nomtext").classList.add("move1");
+                document.getElementById("station").innerHTML='<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;방&nbsp;&nbsp;&nbsp;&nbsp;화</b>';
+                document.getElementById("station2").innerHTML='&nbsp;&nbsp;&nbsp;Bangwha';
+                document.getElementById("station2").classList.add("changecolor");
+        },50000)
+    </script>
+</body>
+</html>

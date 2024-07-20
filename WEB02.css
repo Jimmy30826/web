@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+/* .b{
+    width: 400px;
+    height: 50px;
+    background-color: black;
+}
+.bl{
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+}
+.g{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+.o{
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+} */
+
+/* .bl{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+.b{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.r{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.y{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+} */
+
+/* .div1{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    padding: 50px;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.div3{
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+}
+.div4{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+} */
+
+/* .d1{
+    width: 300px;
+    height: 300px;
+    padding-left: 150px;
+    padding-bottom: 150px;
+    background-color: black;
+}
+.d2{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+} */
+
+/* .b1{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+}
+.b2{
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    position: relative;
+    left: 200px;
+}
+.bl1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: -400px;
+    left: 200px;
+}
+.bl2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    top: -400px;
+} */
+
+.bg{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+}
+.k1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 25px;
+}
+.b1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.k2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 25px;
+    position: relative;
+    left: 100px;
+}
+.b2{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.k3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 25px;
+    position: relative;
+    left: 200px;
+}
+.b3{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.k4{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 25px;
+    position: relative;
+    left: 300px;
+}
+.b4{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}

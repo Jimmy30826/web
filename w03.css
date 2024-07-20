@@ -1,0 +1,120 @@
+ * {
+    box-sizing: border-box;
+}
+.bb{
+    width: 500px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 250px;
+    padding: 50px;
+}
+.bb1{
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 225px;
+    padding: 50px;
+}
+.bb2{
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 200px;
+    padding: 50px;
+}
+.bb3{
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 175px;
+    padding: 50px;
+}
+.train{
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.Korail{
+    width: 400px;
+    border: 3px solid black;
+}
+.SeoulMetro{
+    width: 300px;
+    border: 3px solid black;
+}
+.Metro9{
+    width: 200px;
+    border: 3px solid black;
+}
+.AREX{
+    width: 100px;
+    border: 3px solid black;
+}
+.bg1{
+    background: white;
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.name{
+    color: black;
+    font-size: 20px;
+    background-color: aqua;
+}
+.info01{
+    background-color: aquamarine;
+}
+.cirlcered{
+    background-color: red;
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.circleblack{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.bg02{
+    background: linear-gradient(blue,purple);
+    width: 400px;
+    height: 700px;
+    padding: 50px;
+    border: 3px;
+    border-radius: 10%;
+}
+.KTX{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border: 3px;
+    border-radius: 10%;
+}
+.SRT{
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+    border: 3px;
+    border-radius: 10%;
+}
+.imgKTX{
+    border: 3px;
+    border-radius: 50%;
+    width: 300px;
+}
+.imgSRT{
+    border: 3px;
+    border-radius: 50%;
+    width: 300px;
+}
